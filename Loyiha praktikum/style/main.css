@@ -1,0 +1,375 @@
+/* Main section*/
+.main-banner{
+    background: url(../images/home-banner.png) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+.main-section{
+    padding: 7.5rem 1.87rem;
+}
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+.main-section_image{
+    text-align: right;
+}
+.main-section_welcome{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 2px;
+    color: #797979;
+}
+.main-section_introduction {
+    margin-top: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #05364E;
+}
+
+.main-section_position{
+    color: #05364E;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+
+.main-section_social-networks a{
+    color: #8FA1AA;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.main-section_social-networks a:hover{
+    color: #1C44E4;
+}
+
+.main-section_action{
+    margin-top: 1.87rem;
+}
+
+/* Statistics section */
+.statistics{
+    padding-top: 6.25rem;
+}
+.statistics_item{
+    display: inline-block;
+    background-color: #F8FAFF;
+    width: 150px;
+    text-align: center;
+    padding: 0.32rem 0.625rem;
+    margin-right: 1.25rem;
+}
+
+.statistics_number{
+    font-size: 1.69rem;
+    margin-bottom: 0.32rem;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.statistics_title{
+    font-size: 1rem;
+    color: #797979;
+    font-weight: 300;
+}
+
+/* section about me*/
+
+.about-me{
+    padding: 6.25rem 0;
+}
+
+.about-me > div{
+    width: 50%;
+    float: left;
+}
+
+.about-me_image img{
+    width: 90%;
+}
+
+.about-me_description{
+    font-size: 0.87rem;
+    font-weight: 300;
+    color: #797979;
+    list-style: 1.69rem;
+}
+.about-me_action{
+    margin-top: 2.5rem;
+}
+
+/* Services section style */
+
+.services{
+    padding-top: 6.25rem;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 3.75rem 1.87rem;
+    background-color: #F8FAFF;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.service-card_title{
+    color: #05364d;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+}
+
+.service-card_description{
+    font-size: 0.87rem;
+    line-height: 1.69rem;
+    font-weight: 300;
+    color: #797979;
+}
+
+.service-card_link{
+    font-size: 0.81rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+.service-card:hover{
+
+    background-color: #5f30ff;
+}
+.service-card:hover .service-card_title,
+.service-card:hover .service-card_description,
+.service-card:hover .service-card_link{
+    color: #F8FAFF;
+}
+
+/* Client section style*/
+
+.client{
+    padding-top: 6.25rem;
+}
+
+.client-item > div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.client-item_image img{
+    width: 100%;
+}
+
+.client-item_info{
+    padding-top: 3.12rem;
+    padding-left: 3.12rem;
+}
+
+.client-item_name {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+.client-item_position{
+    font-size: 0.87rem;
+    font-weight: 300;
+    color: #5d6d75;
+}
+
+.client-item_rate{
+    font-size: 1.56rem;
+    padding-top: 0.25rem;
+    color: #ffd805;
+}
+
+.client-item_review {
+    font-size: 0.87rem;
+    line-height: 1.68rem;
+    font-weight: 300;
+    color: #5d6d75;
+}
+
+/*Portfolio section style*/
+.portfolio{
+    padding: 6.25rem 0;
+}
+
+.portfolio-filters{
+    margin-top: 3.125rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.portfolio-filters li{
+    display: inline-block;
+    margin-right: 2.5rem;
+    font-size: 0.87rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.portfolio-filters li:hover,
+.portfolio-filters li.active {
+    cursor: pointer;
+    color: #1345e6;
+}
+
+.portfolio-items {
+    position: relative;
+    margin-top: 3.125rem;
+}
+
+.portfolio-item{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.portfolio-item-1{
+    padding-left: 0;
+}
+
+.portfolio-item-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.portfolio-item-3{
+    position: absolute;
+    top: 322px;
+    right: 0;
+}
+
+.portfolio-item_image{
+    width: 100%;
+}
+
+.portfolio-item_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 69, 230,0.9);
+    visibility: hidden;
+    z-index: 1;
+}
+
+.portfolio-item_info{
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.portfolio-item_info a{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-item:hover .portfolio-item_overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+.portfolio-item:hover .portfolio-item_info{
+    visibility: visible;
+    bottom: 24px;
+    left: 64px;
+}
+
+/* blog section styles */
+.blog{
+    padding: 6.25rem;
+}
+
+.blog-items{
+    margin-top: 3.125rem;
+}
+
+.blog-item{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.blog-item:hover{
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+}
+
+.blog-item:hover .blog-item_info{
+    background-color: white;
+}
+
+.blog-item_image img{
+    width: 100%;
+}
+
+.blog-item_info{
+    background-color: #F8FAFF;
+    padding: 1.87rem;
+    color: #797979;
+}
+
+.blog-item_main-info span{
+    font-size: 0.87rem;
+    margin-right: 1.87rem;
+    font-weight: lighter;
+}
+
+.blog-item_info i{
+    margin-right: 0.32rem;
+}
+
+.blog-item_title{
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.94rem;
+    color: #05364d;
+    font-weight: 700;
+}
+
+.blog-item_description{
+    line-height: 1.69rem;
+    font-weight: lighter;
+    font-size: 0.94rem;
+}
+
+.blog-item_learn-more{
+    font-size: 0.81rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+}
+
+.blog-item_learn-more:hover{
+    color: #ed239f;
+}
+
+/* partners section styles */
+
+.partners{
+    padding: 6.25rem;
+}
+
+.partners{
+    display: inline-block;
+    padding: 0 1.87rem;
+}

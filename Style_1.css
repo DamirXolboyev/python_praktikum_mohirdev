@@ -1,0 +1,10 @@
+h1{
+    opacity: 0.8;
+    color:steelblue;
+}
+p{
+    font-weight: bold;
+    color:rgb(14, 165, 152);
+    opacity: 0.9;
+    text-align: center;
+}

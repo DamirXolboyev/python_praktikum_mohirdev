@@ -1,0 +1,96 @@
+<!DOCTYPE html>j
+<html>
+    <head>
+        <title>Portfolio - Contact</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style/Shared.css">
+        <link rel="stylesheet" href="./style/contact.css">
+    </head>
+    <body>
+        <!-- Header  section -->
+        <header class="main-header">
+            <div class="container">
+                <div class="main-header_brand">
+                    <a href="index.html">
+                        <img src="./images/logo.jpg" alt="Logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation-item">
+                        <li class="main-navigation-item active">
+                            <a href="./index.html">Asosiy</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Mening hizmatlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Mijozlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">Sheriklarim</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /Header section-->
+
+        <div class="container">
+            <section class="contact">
+                <div class="section-title">
+                    Men bilan bog'laning
+                </div>
+                <form action="./server.php" method="GET">
+                    <textarea rows="10" placeholder="Xabaringizni qoldiring" name="message"></textarea>
+                    <div class="half-row contact_firstname">
+                        <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                    </div>
+                    <div class="half-row contact_email">
+                        <input type="email" placeholder="emailingizni kiriting" name="email">
+                    </div>
+                    <input type="text" placeholder="Xat mazmuni" name="subject">
+                    <button class="button contact_send" type="submit">Xabar jo'natish</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Footer section-->
+        <footer>
+            <nav class="footer-navigation">
+                <ul class="footer-navigation-item">
+                    <li class="footer-navigation-item">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Mening hizmatlar</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">Sheriklarim</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- /footer section-->
+    </body>
+</html>

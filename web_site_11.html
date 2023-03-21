@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formalar</title>
+        <style>
+            input[type=text], select, textarea{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 20px;
+            }
+            button{
+                background-color: #3F8D89;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #1A4541;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/server.php" method="GET">
+            <fieldset>
+                <legend>Register</legend>
+                    <label for="Ismingiz">Username</label><br>
+                    <input type="text" name="Ismingiz" id="Ismingiz" placeholder="Ismingiz">
+                    <br>
+                    <label for="Familiya">Familiya</label><br>
+                    <input type="text" name="Familiya" id="Familiya" placeholder="Familiya">
+                    <br>
+                    <label for="tajriba">Tajribangiz (yil)</label>
+                    <select name="tajriba" id="tajriba">
+                        <option value="0">Tajriba yo'q</option>
+                        <option value="1">Tajriba 1 yildan kam</option>
+                        <option value="2">Tajirba 2 yil</option>
+                    </select><br>
+                    <label for="erkak">Erkak</label>
+                    <input type="radio" name="gender" id="erkak">
+                    <label for="ayol">Ayol</label>
+                    <input type="radio" name="gender" id="ayol"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email"><br>
+                    <label for="sana">Tug'ilgan sana</label><br>
+                    <input type="date" name="date" id="sana"><br>
+                    <label for="talaba">Talaba</label>
+                    <input type="radio" name="gender" id="ayol"><br>
+                    <label for="passport">Passport</label>
+                    <input type="file" name="passport" id="passport"><br>
+                    <label for="haqida">Siz haqingizda</label><br>
+                    <textarea id="haqida" name="about" rows="5" cols="50"></textarea><br><br>
+                    <button type="submit">Login</button>
+        </fieldset>
+        </form>
+    </body>
+</html>
