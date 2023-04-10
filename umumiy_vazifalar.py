@@ -53,11 +53,11 @@ Created on Fri Mar 24 06:52:37 2023
 
 # print(f"{son_1} + {son_2} = {qoshish}\n {son_1} - {son_2} = {ayirish}\n {son_1} * {son_2} = {kopaytirish}\n {son_1} + {son_2} = {bolish}\n")
 
-son = int(input("Istalgan butun son kiriting: "))
+#son = int(input("Istalgan butun son kiriting: "))
 
-for n in range(2,11):
-    if not (son%n):
-        print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
+#for n in range(2,11):
+#    if not (son%n):
+#        print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
 
 """
 
@@ -65,8 +65,74 @@ Xatolar bilan ishlash
 
 """
 # EOL qator yakunida hato bor
-print("Hello world
+#print("Hello world")
 
-# EOF funksiya yakunida hato bor
+# EOF funksiya yakunida hat
+
+
+
+
+
+
+
+
+
+"""
+Ro'yhatlar amaliy mashg'ulotlar
+"""
+
+# ismlar = []
+
+# ismlar.append("Zafar")
+# ismlar.append('Ozod')
+
+# print(f"{ismlar[0]} bugun choyhona bormi \n{ismlar[1]} bugun choyhonaga borasanmi")
+
+
+# sonlar = [-4, 2.3, 34, -15, 4.3]
+
+# qoshish = sonlar[0]+sonlar[4]
+
+# ayirish = sonlar[1]-sonlar[2]
+
+# daraja = sonlar[3]**7
+
+# print(f"sonlar ustida amallar: \n qo'shish {qoshish} \n ayirish{ayirish} \n darajaga ko'tarish {daraja}")
+
+# t_shaxslar = ['Imom al-Buxoriy', 'Amir Temur', 'Jaloliddin Manguberdi']
+
+# z_shaxslar = ['Ilon Musk', 'Mark Sukerberg', 'Jek Ma']
+
+# print(f"Tarixiy shaxs {t_shaxslar[1]} bilan \nZamonaviy shaxslardan {z_shaxslar[1]} bilan suhbalashishni hohlardim ")
+
+friends = []
+
+friends.append('Sardor')
+friends.append('Zafar')
+friends.append('Javohir')
+friends.append('Ozod')
+friends.append('Doston')
+
+friends.remove('Doston')
+print(friends)
+friends.insert(0,'Fazliddin')
+friends.insert(5,'Humoyun')
+
+print(friends)
+
+mehmonlar = []
+
+mehmon_1 = friends.pop(0)
+mehmon_2 = friends.pop(4)
+ 
+mehmonlar.append(mehmon_1)
+mehmonlar.append(mehmon_2)
+
+print(f"choyxonada do'stlarim bilan o'tiribmiz {friends} \nchoyxonaga {mehmonlar} do'stlarim ham kelib qo'shildi")
+
+
+
+
+
 
 
