@@ -105,30 +105,30 @@ Ro'yhatlar amaliy mashg'ulotlar
 
 # print(f"Tarixiy shaxs {t_shaxslar[1]} bilan \nZamonaviy shaxslardan {z_shaxslar[1]} bilan suhbalashishni hohlardim ")
 
-friends = []
+# friends = []
 
-friends.append('Sardor')
-friends.append('Zafar')
-friends.append('Javohir')
-friends.append('Ozod')
-friends.append('Doston')
+# friends.append('Sardor')
+# friends.append('Zafar')
+# friends.append('Javohir')
+# friends.append('Ozod')
+# friends.append('Doston')
 
-friends.remove('Doston')
-print(friends)
-friends.insert(0,'Fazliddin')
-friends.insert(5,'Humoyun')
+# friends.remove('Doston')
+# print(friends)
+# friends.insert(0,'Fazliddin')
+# friends.insert(5,'Humoyun')
 
-print(friends)
+# print(friends)
 
-mehmonlar = []
+# mehmonlar = []
 
-mehmon_1 = friends.pop(0)
-mehmon_2 = friends.pop(4)
+# mehmon_1 = friends.pop(0)
+# mehmon_2 = friends.pop(4)
  
-mehmonlar.append(mehmon_1)
-mehmonlar.append(mehmon_2)
+# mehmonlar.append(mehmon_1)
+# mehmonlar.append(mehmon_2)
 
-print(f"choyxonada do'stlarim bilan o'tiribmiz {friends} \nchoyxonaga {mehmonlar} do'stlarim ham kelib qo'shildi")
+# print(f"choyxonada do'stlarim bilan o'tiribmiz {friends} \nchoyxonaga {mehmonlar} do'stlarim ham kelib qo'shildi")
 
 
 
