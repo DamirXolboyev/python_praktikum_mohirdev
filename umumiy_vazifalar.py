@@ -176,19 +176,47 @@ davlatlar = ['O\'zbekiston', 'Nepal', 'Malayziya', 'Angilya', 'Italiya', 'German
 
 # print(f"Ro'yhat boshi: {royhat_boshi} \nRo'yhat o'rtasi: {royhat_ortasi}\nRo'yhat oxiri: {royhat_oxiri}")
 
-taomlar = ['Tuxum', 'Sosiska', 'Yog\'', 'Osh', 'Do\'lma', 'Manti']
+# taomlar = ['Tuxum', 'Sosiska', 'Yog\'', 'Osh', 'Do\'lma', 'Manti']
 
-nonushta = taomlar[:]
+# nonushta = taomlar[:]
 
-del(nonushta[3:])
+# del(nonushta[3:])
 
-nonushta.append('Non')
-nonushta.append('Shakar')
+# nonushta.append('Non')
+# nonushta.append('Shakar')
 
-print(f"Nonushta uchun ro'yhat: {nonushta}\nTaomlar ro'yhati: {taomlar}")
+# print(f"Nonushta uchun ro'yhat: {nonushta}\nTaomlar ro'yhati: {taomlar}")
 
-nonushta = tuple(nonushta)
+# nonushta = tuple(nonushta)
 
-nonushta.append('Fri')
-nonushta.append("Qaymoq")
-print(nonushta)
+# nonushta.append('Fri')
+# nonushta.append("Qaymoq")
+# print(nonushta)
+"""
+For operatoriga oid misollar
+"""
+# ismlar = ['Javohir', 'Zafar', 'Shaxriyor', 'Bobur', 'Sardor', 'Doston']
+
+# for ism in ismlar:
+#     print(f"Assalomu alaykum {ism} xush kelibsiz")
+
+# print(f"Kod {len(ismlar)} marta takrorlandi")
+
+# sonlar = list(range(11,100,2))
+
+# for son in sonlar:
+#     print(f"{son} ning kubi {son**3} ga teng")
+    
+# kinolar = []
+
+# for kino in range(5):
+#     kinolar.append(input(f"{kino+1}-kino nomini kiriting:"))
+# print(kinolar)
+# a = int(input("Bugun nechta odam bilan suhbatlashdiz: "))
+
+# odamlar = []
+
+# for i in range(a):
+#     odamlar.append(input(f"{i+1}-suhbatlashgan odamingiz kim:"))
+# print(odamlar)
+
