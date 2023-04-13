@@ -130,9 +130,65 @@ Ro'yhatlar amaliy mashg'ulotlar
 
 # print(f"choyxonada do'stlarim bilan o'tiribmiz {friends} \nchoyxonaga {mehmonlar} do'stlarim ham kelib qo'shildi")
 
+"""
+Ro'yhatlar ustida amallar
+"""
+davlatlar = ['O\'zbekiston', 'Nepal', 'Malayziya', 'Angilya', 'Italiya', 'Germaniya']
 
+# print(davlatlar)
 
+# uzun = len(davlatlar)
 
+# print(uzun)
 
+# tartib = sorted(davlatlar)
 
+# teskari = sorted(davlatlar, reverse=True)
 
+# print(f"Tartiblangan ro'yhat: {tartib} \nTeskari tartiblangan ro'yhat: {teskari}")
+
+# davlatlar.reverse()
+
+# print(davlatlar)
+
+# davlatlar.sort()
+
+# davlatlar.sort(reverse=True)
+
+# print(davlatlar)
+
+# juft_sonlar = list(range(120,1200,2))
+
+# yigindi = sum(juft_sonlar)
+
+# katta = max(juft_sonlar)
+# kichik = min(juft_sonlar)
+# print(juft_sonlar)
+# print(yigindi)
+# print(len(juft_sonlar))
+# print(f"Katta son: {katta} \nKichik son: {kichik}")
+
+# royhat_boshi = juft_sonlar[:20]
+
+# royhat_ortasi = juft_sonlar[270:290]
+
+# royhat_oxiri = juft_sonlar[520:]
+
+# print(f"Ro'yhat boshi: {royhat_boshi} \nRo'yhat o'rtasi: {royhat_ortasi}\nRo'yhat oxiri: {royhat_oxiri}")
+
+taomlar = ['Tuxum', 'Sosiska', 'Yog\'', 'Osh', 'Do\'lma', 'Manti']
+
+nonushta = taomlar[:]
+
+del(nonushta[3:])
+
+nonushta.append('Non')
+nonushta.append('Shakar')
+
+print(f"Nonushta uchun ro'yhat: {nonushta}\nTaomlar ro'yhati: {taomlar}")
+
+nonushta = tuple(nonushta)
+
+nonushta.append('Fri')
+nonushta.append("Qaymoq")
+print(nonushta)
