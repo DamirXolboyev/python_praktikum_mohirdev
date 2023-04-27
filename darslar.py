@@ -1,24 +1,18 @@
-# import datetime as dt
+import datetime as dt
 
-# hozir = dt.datetime.now()
-# print(hozir)
-# # sanani ajratib olish
-# print(hozir.date())
+hozir = dt.datetime.now()
+print(hozir)
+# sanani ajratib olish
+print(hozir.date())
 
-# # vaqtni ajratib olish
-# print(hozir.time())
+# vaqtni ajratib olish
+print(hozir.time())
 
-# # soatni ajratib olish
-# print(hozir.hour)
+# soatni ajratib olish
+print(hozir.hour)
 
-# # minutni ajratib olish
-# print(hozir.minute)
+# minutni ajratib olish
+print(hozir.minute)
 
-# # sekundni ajratib olish
-# print(hozir.second)
-
-import datetime 
-
-
-
-print(hozir.datetime.now())
+# sekundni ajratib olish
+print(hozir.second)
