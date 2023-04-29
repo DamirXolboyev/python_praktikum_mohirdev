@@ -220,3 +220,16 @@ For operatoriga oid misollar
 #     odamlar.append(input(f"{i+1}-suhbatlashgan odamingiz kim:"))
 # print(odamlar)
 
+""" 
+if elsega oid misollar 
+"""
+cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+
+for car in cars:
+    if car == 'gm':
+        print(car.upper())
+    else:
+        print(car.title())
+
+
+
