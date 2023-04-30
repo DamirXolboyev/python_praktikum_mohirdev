@@ -257,3 +257,26 @@ if elsega oid misollar
 """
 if elif else ga oid misollar
 """
+# son = int(input("Juft son kiriting: "))
+
+# if son%2==0:
+#     print("Rahmat!")
+# else:
+#     print("Bu juft son emas")
+
+yosh = int(input("Yoshingizni kiriting: "))
+
+if yosh>0:
+    if yosh<=4 or yosh >=60:
+        narh = 0 
+    elif yosh < 18:
+        narh = 10000
+    elif yosh >= 18:
+        narh = 20000
+    print(f"Sizga kirish {narh} so'm")
+else:
+    print("Noto'g'ri ma'lumot kiritingiz")
+    
+    
+    
+    
