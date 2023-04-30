@@ -223,13 +223,20 @@ For operatoriga oid misollar
 """ 
 if elsega oid misollar 
 """
-cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
 
-for car in cars:
-    if car == 'gm':
-        print(car.upper())
-    else:
-        print(car.title())
+# for car in cars:
+#     if car != 'gm':
+#         print(car.title())
+#     else:
+#         print(car.upper())
 
+foydalanuvchi_nomi = input("Loginni kiriting: ")
+parol = input("Parolni kiriting: ")
+
+if foydalanuvchi_nomi == "admin":
+    print("Xush kelibsiz, Admin")
+else: 
+    print(f"Xush kelibsiz, {foydalanuvchi_nomi}")
 
 
