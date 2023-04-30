@@ -231,12 +231,26 @@ if elsega oid misollar
 #     else:
 #         print(car.upper())
 
-foydalanuvchi_nomi = input("Loginni kiriting: ")
-parol = input("Parolni kiriting: ")
+# foydalanuvchi_nomi = input("Loginni kiriting: ")
+# parol = input("Parolni kiriting: ")
 
-if foydalanuvchi_nomi == "admin":
-    print("Xush kelibsiz, Admin")
-else: 
-    print(f"Xush kelibsiz, {foydalanuvchi_nomi}")
+# if foydalanuvchi_nomi == "admin":
+#     print("Xush kelibsiz, Admin")
+# else: 
+#     print(f"Xush kelibsiz, {foydalanuvchi_nomi}")
 
+# son_1 = int(input("1-Butun sonni kiriting: "))
 
+# son_2 = int(input("2-Butun sonni kiriting: "))
+
+# if son_1 == son_2:
+#     print("Sonlar teng!")
+# else:
+#     print("Sonlar teng emas!")
+
+son = int(input("Istalgan butun sonni kiriting: "))
+
+if son > 0:
+    print((son**(1/2)))
+else:
+    print("Musbat son kiriting!")
