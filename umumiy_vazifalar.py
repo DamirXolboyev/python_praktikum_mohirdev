@@ -248,9 +248,12 @@ if elsega oid misollar
 # else:
 #     print("Sonlar teng emas!")
 
-son = int(input("Istalgan butun sonni kiriting: "))
+# son = int(input("Istalgan butun sonni kiriting: "))
 
-if son > 0:
-    print((son**(1/2)))
-else:
-    print("Musbat son kiriting!")
+# if son > 0:
+#     print((son**(1/2)))
+# else:
+#     print("Musbat son kiriting!")
+"""
+if elif else ga oid misollar
+"""
