@@ -264,19 +264,43 @@ if elif else ga oid misollar
 # else:
 #     print("Bu juft son emas")
 
-yosh = int(input("Yoshingizni kiriting: "))
+# yosh = int(input("Yoshingizni kiriting: "))
 
-if yosh>0:
-    if yosh<=4 or yosh >=60:
-        narh = 0 
-    elif yosh < 18:
-        narh = 10000
-    elif yosh >= 18:
-        narh = 20000
-    print(f"Sizga kirish {narh} so'm")
+# if yosh>0:
+#     if yosh<=4 or yosh >=60:
+#         narh = 0 
+#     elif yosh < 18:
+#         narh = 10000
+#     elif yosh >= 18:
+#         narh = 20000
+#     print(f"Sizga kirish {narh} so'm")
+# else:
+#     print("Noto'g'ri ma'lumot kiritingiz")
+    
+    
+mahsulotlar = ['anor', 'uzum', 'olma', 'ananas', 'banan', 'yogurt', 'fanta', 'tuxum', 'yog\'', 'shakar']
+
+savat = []
+
+for i in range(5):
+    savat.append(input(f"{i+1}-mahsulotni qo'shing: "))
+
+
+if savat:
+    for savatcha in savat:
+        if savatcha in mahsulotlar:
+            print(f"Do'konimizda: {savatcha} bor")
+        else:
+            print(f"Do'konimizda: {savatcha} yo'q")
 else:
-    print("Noto'g'ri ma'lumot kiritingiz")
-    
-    
-    
+    print("Savatchangiz bo'sh")
+            
+
+
+
+
+
+
+
+
     
