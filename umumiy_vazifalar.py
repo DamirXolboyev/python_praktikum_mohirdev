@@ -278,29 +278,46 @@ if elif else ga oid misollar
 #     print("Noto'g'ri ma'lumot kiritingiz")
     
     
-mahsulotlar = ['anor', 'uzum', 'olma', 'ananas', 'banan', 'yogurt', 'fanta', 'tuxum', 'yog\'', 'shakar']
+# mahsulotlar = ['anor', 'uzum', 'olma', 'ananas', 'banan', 'yogurt', 'fanta', 'tuxum', 'yog\'', 'shakar']
 
-savat = []
+# savat = []
 
-for i in range(5):
-    savat.append(input(f"{i+1}-mahsulotni qo'shing: "))
+# for i in range(5):
+#     savat.append(input(f"{i+1}-mahsulotni qo'shing: "))
 
-bor_mahsulot = []
+# bor_mahsulot = []
 
-mavjud_emas = []
+# mavjud_emas = []
 
-for mahsulot in savat:
-    if mahsulot in mahsulotlar:
-        bor_mahsulot.append(mahsulot)
-    else:
-        mavjud_emas.append(mahsulot)
-if mavjud_emas:
-    print("Do'konimizda quydagi mahsulotlar mavjud emas!:")
-    for mahsulot in mavjud_emas:
-        print(mahsulot)
-else:
-    print("Siz so'ragan barcha mahsulotlar do'konimizda bor!")
-            
+# for mahsulot in savat:
+#     if mahsulot in mahsulotlar:
+#         bor_mahsulot.append(mahsulot)
+#     else:
+#         mavjud_emas.append(mahsulot)
+# if mavjud_emas:
+#     print("Do'konimizda quydagi mahsulotlar mavjud emas!:")
+#     for mahsulot in mavjud_emas:
+#         print(mahsulot)
+# else:
+#     print("Siz so'ragan barcha mahsulotlar do'konimizda bor!")
+
+
+# foydalanuvchilar = ['damir', 'zafar', 'quvondiq', 'doston', 'anvar']
+
+# login = input("yangi login tanlang: ")
+
+# if login.lower() in foydalanuvchilar:
+#     print("Xush kelibsiz!")
+# else:
+#     print("Login band, yangi login tanlang!")
+
+butun_son = int(input("Istalgan butun son kiriting: "))
+for bol in range(2,11):
+    if butun_son%bol==0:
+        print(f"{butun_son} soni {bol} ga qoldiqsiz bo'linadi")
+
+
+
 
 
 
