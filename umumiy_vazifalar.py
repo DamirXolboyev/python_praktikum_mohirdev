@@ -311,10 +311,35 @@ if elif else ga oid misollar
 # else:
 #     print("Login band, yangi login tanlang!")
 
-butun_son = int(input("Istalgan butun son kiriting: "))
-for bol in range(2,11):
-    if butun_son%bol==0:
-        print(f"{butun_son} soni {bol} ga qoldiqsiz bo'linadi")
+# butun_son = int(input("Istalgan butun son kiriting: "))
+# for bol in range(2,11):
+#     if butun_son%bol==0:
+#         print(f"{butun_son} soni {bol} ga qoldiqsiz bo'linadi")
+
+
+"""
+Lug'atlar mavzusida darslar
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
