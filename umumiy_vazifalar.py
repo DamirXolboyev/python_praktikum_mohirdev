@@ -285,16 +285,30 @@ savat = []
 for i in range(5):
     savat.append(input(f"{i+1}-mahsulotni qo'shing: "))
 
+bor_mahsulot = []
 
-if savat:
-    for savatcha in savat:
-        if savatcha in mahsulotlar:
-            print(f"Do'konimizda: {savatcha} bor")
-        else:
-            print(f"Do'konimizda: {savatcha} yo'q")
+mavjud_emas = []
+
+for mahsulot in savat:
+    if mahsulot in mahsulotlar:
+        bor_mahsulot.append(mahsulot)
+    else:
+        mavjud_emas.append(mahsulot)
+if mavjud_emas:
+    print("Do'konimizda quydagi mahsulotlar mavjud emas!:")
+    for mahsulot in mavjud_emas:
+        print(mahsulot)
 else:
-    print("Savatchangiz bo'sh")
+    print("Siz so'ragan barcha mahsulotlar do'konimizda bor!")
             
+
+
+
+
+
+
+
+
 
 
 
