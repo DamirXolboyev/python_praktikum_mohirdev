@@ -320,25 +320,19 @@ if elif else ga oid misollar
 """
 Lug'atlar mavzusida darslar
 """
+talaba_1 = {}
 
+talaba_1 ['ism'] = 'xolboyev damir'
+talaba_1 ['kurs'] = 4
+talaba_1 ['yosh'] = 26
 
+# print(talaba_1)
 
+# print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(talaba_1)
+del talaba_1['yosh']
+print(talaba_1)
 
 
 
