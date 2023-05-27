@@ -320,37 +320,89 @@ if elif else ga oid misollar
 """
 Lug'atlar mavzusida darslar
 """
-talaba_1 = {}
+# talaba_1 = {}
 
-talaba_1 ['ism'] = 'xolboyev damir'
-talaba_1 ['kurs'] = 4
-talaba_1 ['yosh'] = 26
+# talaba_1 ['ism'] = 'xolboyev damir'
+# talaba_1 ['kurs'] = 4
+# talaba_1 ['yosh'] = 26
 
 # print(talaba_1)
 
 # print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
-print(talaba_1)
-del talaba_1['yosh']
-print(talaba_1)
+# print(talaba_1)
+# del talaba_1['yosh']
+# print(talaba_1)
 
 
+# otam = {'ismi' : 'Isoqov Abdurashid', 'tugilgan_yili' : 1964, }
 
 
+# malumotlar = { 'damir': 'xolboyev',
+#               'javohir': 'rustamov', 
+#               'zafar': 'odiljonov', 
+#               'quvondiq': 'kenjaboyev', 
+#               'bobur': 'xolboyev',
+#               'shaxriyor': 'xolboyev',
+#               'jasur': 'qudratov',
+#               'doston': 'o\'ktamov'
+#               }
+
+# for malumot in sorted(malumotlar.keys()):
+#     print(malumot.title())
+    
+# for malumot1 in sorted(malumotlar.values()):
+#     print(malumot1.title())
 
 
+# davlatlar = {
+#     'o\'zbekiston': 'toshkent',
+#     'tojikiston': 'dushanbe',
+#     'angilya': 'london',
+#     'germaniya': 'berlin',
+#     'kanada': 'ottava',
+#     'xitoy': 'pekin',
+#     'koreya': 'seul',
+#     'yaponiya': 'tokiyo'
+#     }
+# for davlat1 in sorted(davlatlar.keys()):
+#     print(davlat1.title())
 
 
+# for davlat2 in sorted(davlatlar.values()):
+#     print(davlat2.title())
 
 
+davlatlar = {
+    "o'zbekiston":{'poytaxt':"toshkent",
+                   'maydon':448978,
+                   'aholi':33_000_000,
+                   'pul birligi':"so'm"
+                   },
+    "rossiya":{'poytaxt':"moskva",
+                   'maydon':17_098_246,
+                   'aholi':144_000_000,
+                   'pul birligi':"rubl"
+                   },
+    "aqsh":{'poytaxt':"vashington",
+                   'maydon':9_631_418,
+                   'aholi':327_000_000,
+                   'pul birligi':"dollar"},
+    "malayziya":{'poytaxt':"kuala-lumpur",
+                   'maydon':329750,
+                   'aholi':25_000_000,
+                   'pul birligi':"rinngit"}
+    }
 
-
-
-
-
-
-
-
+davlat = input('Davlat nomini kiriting: ').lower()
+if davlat in davlatlar:
+    info = davlatlar[davlat]
+    print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+          f"\nHududi: {info['maydon']} kv.km"
+          f"\nAholisi: {info['aholi']}"
+          f"\nPul birligi: {info['pul birligi']}")
+else:
+    print("Bizda bu davlat haqida ma'lumot mavjud emas")
 
 
     
