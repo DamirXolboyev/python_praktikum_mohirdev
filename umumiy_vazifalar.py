@@ -407,24 +407,37 @@ Lug'atlar mavzusida darslar
 
     
 
-ismlar = []
+# ismlar = []
 
-print("Yaqin do'stlaringizni ro'yhatini tuzamiz.")
-n=1
-while True:
-    savol = f"{n}-do'stingiz ismini kiriting:"
-    ism = input(savol)
-    ismlar.append(ism)
-    javob = input("Yana ism qo'shasizmi? (ha/yo'q)")
-    n+=1
-    if javob != "ha" :
-        break
+# print("Yaqin do'stlaringizni ro'yhatini tuzamiz.")
+# n=1
+# while True:
+#     savol = f"{n}-do'stingiz ismini kiriting:"
+#     ism = input(savol)
+#     ismlar.append(ism)
+#     javob = input("Yana ism qo'shasizmi? (ha/yo'q)")
+#     n+=1
+#     if javob != "ha" :
+#         break
 
-print("Do'stilaringiz ro'yhati:")
-for ism in ismlar:
-    print(ism.title())
+# print("Do'stilaringiz ro'yhati:")
+# for ism in ismlar:
+#     print(ism.title())
 
+print("Do'stlaringiz yoshini saqlaymiz.")
+dostlar = {}
+ishora = True
+while ishora:
+    ism = input("Do'stingiz ismini kiriting: ")
+    yosh = input(f"{ism.title()}ning yoshini kiriting: ")
+    dostlar[ism] = int(yosh) # ism kalit, yosh qiymat
+    
+    javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
+    if javob == "yo'q":
+        ishora = False
 
+for ism, yosh in dostlar.items():
+    print(f"{ism.title()} {yosh} yoshda")
 
 
 
