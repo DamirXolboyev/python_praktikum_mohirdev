@@ -373,36 +373,80 @@ Lug'atlar mavzusida darslar
 #     print(davlat2.title())
 
 
-davlatlar = {
-    "o'zbekiston":{'poytaxt':"toshkent",
-                   'maydon':448978,
-                   'aholi':33_000_000,
-                   'pul birligi':"so'm"
-                   },
-    "rossiya":{'poytaxt':"moskva",
-                   'maydon':17_098_246,
-                   'aholi':144_000_000,
-                   'pul birligi':"rubl"
-                   },
-    "aqsh":{'poytaxt':"vashington",
-                   'maydon':9_631_418,
-                   'aholi':327_000_000,
-                   'pul birligi':"dollar"},
-    "malayziya":{'poytaxt':"kuala-lumpur",
-                   'maydon':329750,
-                   'aholi':25_000_000,
-                   'pul birligi':"rinngit"}
-    }
+# davlatlar = {
+#     "o'zbekiston":{'poytaxt':"toshkent",
+#                    'maydon':448978,
+#                    'aholi':33_000_000,
+#                    'pul birligi':"so'm"
+#                    },
+#     "rossiya":{'poytaxt':"moskva",
+#                    'maydon':17_098_246,
+#                    'aholi':144_000_000,
+#                    'pul birligi':"rubl"
+#                    },
+#     "aqsh":{'poytaxt':"vashington",
+#                    'maydon':9_631_418,
+#                    'aholi':327_000_000,
+#                    'pul birligi':"dollar"},
+#     "malayziya":{'poytaxt':"kuala-lumpur",
+#                    'maydon':329750,
+#                    'aholi':25_000_000,
+#                    'pul birligi':"rinngit"}
+#     }
 
-davlat = input('Davlat nomini kiriting: ').lower()
-if davlat in davlatlar:
-    info = davlatlar[davlat]
-    print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
-          f"\nHududi: {info['maydon']} kv.km"
-          f"\nAholisi: {info['aholi']}"
-          f"\nPul birligi: {info['pul birligi']}")
-else:
-    print("Bizda bu davlat haqida ma'lumot mavjud emas")
+# davlat = input('Davlat nomini kiriting: ').lower()
+# if davlat in davlatlar:
+#     info = davlatlar[davlat]
+#     print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+#           f"\nHududi: {info['maydon']} kv.km"
+#           f"\nAholisi: {info['aholi']}"
+#           f"\nPul birligi: {info['pul birligi']}")
+# else:
+#     print("Bizda bu davlat haqida ma'lumot mavjud emas")
 
 
     
+
+ismlar = []
+
+print("Yaqin do'stlaringizni ro'yhatini tuzamiz.")
+n=1
+while True:
+    savol = f"{n}-do'stingiz ismini kiriting:"
+    ism = input(savol)
+    ismlar.append(ism)
+    javob = input("Yana ism qo'shasizmi? (ha/yo'q)")
+    n+=1
+    if javob != "ha" :
+        break
+
+print("Do'stilaringiz ro'yhati:")
+for ism in ismlar:
+    print(ism.title())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
