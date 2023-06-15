@@ -424,22 +424,20 @@ Lug'atlar mavzusida darslar
 # for ism in ismlar:
 #     print(ism.title())
 
-print("Do'stlaringiz yoshini saqlaymiz.")
-dostlar = {}
-ishora = True
-while ishora:
-    ism = input("Do'stingiz ismini kiriting: ")
-    yosh = input(f"{ism.title()}ning yoshini kiriting: ")
-    dostlar[ism] = int(yosh) # ism kalit, yosh qiymat
+# print("Do'stlaringiz yoshini saqlaymiz.")
+# dostlar = {}
+# ishora = True
+# while ishora:
+#     ism = input("Do'stingiz ismini kiriting: ")
+#     yosh = input(f"{ism.title()}ning yoshini kiriting: ")
+#     dostlar[ism] = int(yosh) # ism kalit, yosh qiymat
     
-    javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
-    if javob == "yo'q":
-        ishora = False
+#     javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
+#     if javob == "yo'q":
+#         ishora = False
 
-for ism, yosh in dostlar.items():
-    print(f"{ism.title()} {yosh} yoshda")
-
-
+# for ism, yosh in dostlar.items():
+#     print(f"{ism.title()} {yosh} yoshda")
 
 
 
@@ -447,15 +445,28 @@ for ism, yosh in dostlar.items():
 
 
 
+# x = "hello"
+
+# #if condition returns True, then nothing happens:
+# assert x == "hello"
+
+# #if condition returns False, AssertionError is raised:
+# assert x == "goodbye"
 
 
 
+"""
+FUNKSIYALAR
+"""
+def salom_ber(ism):
+    """Foydalanuvchini ismini  qabul qilib 
+    Ism o'zgaruvchini qaytarib salom beradigan funksiya
+    """
+    print(f"Assalomu alaykum, hurmatli {ism.title()}")
 
 
 
-
-
-
+salom_ber("Damir")
 
 
 
