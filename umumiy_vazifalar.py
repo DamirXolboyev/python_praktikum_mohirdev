@@ -458,15 +458,52 @@ Lug'atlar mavzusida darslar
 """
 FUNKSIYALAR
 """
-def salom_ber(ism):
-    """Foydalanuvchini ismini  qabul qilib 
-    Ism o'zgaruvchini qaytarib salom beradigan funksiya
-    """
-    print(f"Assalomu alaykum, hurmatli {ism.title()}")
+# def salom_ber(ism):
+#     """Foydalanuvchini ismini  qabul qilib 
+#     Ism o'zgaruvchini qaytarib salom beradigan funksiya
+#     """
+#     print(f"Assalomu alaykum, hurmatli {ism.title()}")
 
 
 
-salom_ber("Damir")
+# salom_ber("Damir")
+
+# def tanishuvchi(yosh, ism):
+#     """
+#     Foydalanuvchini ismi va tug'ilgan yilini hisoblovchi funksiya
+#     """
+#     print(f"Assalomu alaykum {ism.title()}, siz {2023-yosh}-yilda tug'ilgansiz")
+
+
+# ism = input("Ismingizni kiriting:")
+# yosh = int(input("Yoshingizni kiriting:"))
+
+# tanishuvchi(yosh,ism)
+
+# def kvadrati(son):
+#     """
+#     Sonning kvadratini hisoblovchi funksiya
+#     """
+#     print(f"Kiritilgan sonning kvadrati {son**2}")
+
+
+# son = int(input("Istalgan sonni kiriting: "))
+
+# kvadrati(son)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
