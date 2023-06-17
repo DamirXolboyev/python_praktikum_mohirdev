@@ -581,10 +581,21 @@ dars davomida berilgan vazifa
 #     if javob=='no':
 #         break
     
+def user_info(famliya, ism, tugilgan_yili, manzil, email=None, tel_raqam=None):
+    user = {'famliya': famliya,
+            'ism': ism,
+            'tugilgan_yili': tugilgan_yili,
+            'manzil': manzil,
+            'email': email,
+            'tel_raqam': tel_raqam,
+            'yosh': 2023-tugilgan_yili
+        }
+    return user
+    
+info1 = user_info('Xolboyev', 'Damir', 1997, 'Jizzax viloyati', 'xadmir97@gmail.com', '+998 91 194-24-24')
+info2 = user_info('Odiljonov', 'Zafar', 1997, 'Jizzax viloyati', 'zafar1811@mail.ru', '99891 196 11 18')
 
-    
-    
-    
+print(f"Birinchi foydalanuvchining ma'lumotlari: \n{info1} \nIkkinchi foydalanuvchi ma'lumotlari: \n{info2}")
     
     
     
