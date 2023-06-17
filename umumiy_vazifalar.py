@@ -531,25 +531,72 @@ FUNKSIYALAR
 dars davomida berilgan vazifa
 """
 
-def oraliq_1(min,max,qadam=1):
-    sonlar = []
-    while min < max:
-        if qadam > 1:
-            sonlar.append(min)
-            min+=qadam
-        else:
-            sonlar.append(min)
-            min+=1
-    return sonlar
+# def oraliq_1(min,max,qadam=1):
+#     sonlar = []
+#     while min < max:
+#         if qadam > 1:
+#             sonlar.append(min)
+#             min+=qadam
+#         else:
+#             sonlar.append(min)
+#             min+=1
+#     return sonlar
     
 
 
-print(oraliq_1(23, 34, 2))
+# print(oraliq_1(23, 34, 2))
 
-print(oraliq_1(0,40))
-
-
+# print(oraliq_1(0,40))
 
 
+# def avto_info (kompaniya, model, rangi, korobka, yili, narhi=None):
+#     avto = { 'kompaniya': kompaniya,
+#               'model': model, 
+#               'rangi': rangi,
+#               'korobka': korobka,
+#               'yil': yili,
+#               'narh': narhi      
+#         }
+#     return avto
 
+# print("Saytimizdagi avtolar ro'yhatini shakillantiramiz.")
+# avtolar=[]
+# while True:
+#     print("\nQuyidagi ma'lumotlarni kiriting", end='')
+#     kompaniya=input("\nIshlab chiqaruvchi: ")
+#     model=input("Modeli: ")
+#     rangi=input("Rangi: ")
+#     korobka = input("Korobka: ")
+#     yili=input("Ishlab chiqarilgan yili: ")
+#     narhi=input("Narhi: ")
+    
+    
+    
+#     #Foydalanuvchi kiritgan ma'lumotlardan avto.info yordamida 
+#     #lug'at shakllantirib, har bir lug'atni ro'yhatga qo'shamiz:
+#     avtolar.append(avto_info(kompaniya, model, rangi, korobka, yili,narhi))
+    
+#     #Yana avto qo'shish-qo'shmaslikni so'raymiz
+#     javob = input("Yana avto qo'shasizmi? (yes/no): ")
+#     if javob=='no':
+#         break
+    
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
