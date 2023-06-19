@@ -581,33 +581,71 @@ dars davomida berilgan vazifa
 #     if javob=='no':
 #         break
     
-def user_info(famliya, ism, tugilgan_yili, manzil, email=None, tel_raqam=None):
-    user = {'famliya': famliya,
-            'ism': ism,
-            'tugilgan_yili': tugilgan_yili,
-            'manzil': manzil,
-            'email': email,
-            'tel_raqam': tel_raqam,
-            'yosh': 2023-tugilgan_yili
-        }
-    return user
+# def user_info(famliya, ism, tugilgan_yili, manzil, email=None, tel_raqam=None):
+#     user = {'famliya': famliya,
+#             'ism': ism,
+#             'tugilgan_yili': tugilgan_yili,
+#             'manzil': manzil,
+#             'email': email,
+#             'tel_raqam': tel_raqam,
+#             'yosh': 2023-tugilgan_yili
+#         }
+#     return user
     
-info1 = user_info('Xolboyev', 'Damir', 1997, 'Jizzax viloyati', 'xadmir97@gmail.com', '+998 91 194-24-24')
-info2 = user_info('Odiljonov', 'Zafar', 1997, 'Jizzax viloyati', 'zafar1811@mail.ru', '99891 196 11 18')
+# info1 = user_info('Xolboyev', 'Damir', 1997, 'Jizzax viloyati', 'xadmir97@gmail.com', '+998 91 194-24-24')
+# info2 = user_info('Odiljonov', 'Zafar', 1997, 'Jizzax viloyati', 'zafar1811@mail.ru', '99891 196 11 18')
 
-print(f"Birinchi foydalanuvchining ma'lumotlari: \n{info1} \nIkkinchi foydalanuvchi ma'lumotlari: \n{info2}")
+# print(f"Birinchi foydalanuvchining ma'lumotlari: \n{info1} \nIkkinchi foydalanuvchi ma'lumotlari: \n{info2}")
+    
+    
+# print("Saytimizdagi foydalanuvchilar ro'yhati shakillantiramiz: ")
+# user = []
+
+# while True:
+#     print("\nQuydagi ma'lumotlarni to'ldiring: ")
+#     famliya = input("\nFamilyani kiriting: ")
+#     ism = input("Ismni kiriting: ")
+#     tugilgan_yili = int(input("tug'ilgan yilingizni kiritng: "))
+#     manzil = input("Manzilingizni kiriting: ")
+#     email = input("Elektron pochtani kiriiting: ")
+#     tel_raqam = input("Telefon raqamni kiriting: ")
+    
+    
+#     user.append(user_info(famliya, ism, tugilgan_yili, manzil, email, tel_raqam))
+    
+#     answer = input("Yana ma'lumot kiritmoqchimisiz? yes/no: ")
+    
+#     if answer == "no":
+#         break
+
+#Katta qiymat qaytaruvchi funksiya
+
+# def uch_max(son1, son2, son3):
+#     """
+#     Uchta kiritilgan qiymatlardan eng kattasini aniqlovchi funksiya
+#     """
+#     if son1>son2 and son1>son3:
+#         return son1
+#     elif son2>son1 and son2>son3:
+#         return son2
+#     else:
+#         return son3
     
     
     
     
+
+# print(uch_max(23, 34, 33))
+
+
+
+def geo(radius):
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
