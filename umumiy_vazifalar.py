@@ -651,16 +651,43 @@ dars davomida berilgan vazifa
 
 
 
-def fibonacci(n):
-    sonlar = []
-    for x in range(n):
-        if x == 0 or x == 1:
-            sonlar.append(1)
-        else:
-            sonlar.append(sonlar[x - 1] + sonlar[x - 2])
-    return sonlar
+# def fibonacci(n):
+#     sonlar = []
+#     for x in range(n):
+#         if x == 0 or x == 1:
+#             sonlar.append(1)
+#         else:
+#             sonlar.append(sonlar[x - 1] + sonlar[x - 2])
+#     return sonlar
 
 
-print(fibonacci(10))
+# print(fibonacci(10))
+
+
+# def bahola (ismlar):
+#     baholar = {}
+#     while ismlar:
+#         ism = ismlar.pop()
+#         baho = input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+#         baholar[ism] = int(baho)
+#     return baholar
+
+
+# talabalar = ['damir', 'zafar', 'bobur', 'sardor']
+
+# baholar = bahola(talabalar[:])
+# print(baholar)
+
+def katta_harf(matnlar):
+    for i in range(len(matnlar)):
+        matnlar[i]=matnlar[i].title()   
+
+ismlar = ['ali', 'vali', 'hasan', 'husan']
+katta_harf(ismlar)
+print(ismlar)
+
+
+
+
 
 
