@@ -664,13 +664,13 @@ dars davomida berilgan vazifa
 # print(fibonacci(10))
 
 
-# def bahola (ismlar):
-#     baholar = {}
-#     while ismlar:
-#         ism = ismlar.pop()
-#         baho = input(f"Talaba {ism.title()}ning bahosini kiriting: ")
-#         baholar[ism] = int(baho)
-#     return baholar
+def bahola (ismlar):
+    baholar = {}
+    while ismlar:
+        ism = ismlar.pop()
+        baho = input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+        baholar[ism] = int(baho)
+    return baholar
 
 
 # talabalar = ['damir', 'zafar', 'bobur', 'sardor']
@@ -682,9 +682,36 @@ def katta_harf(matnlar):
     for i in range(len(matnlar)):
         matnlar[i]=matnlar[i].title()   
 
-ismlar = ['ali', 'vali', 'hasan', 'husan']
-katta_harf(ismlar)
-print(ismlar)
+# ismlar = ['ali', 'vali', 'hasan', 'husan']
+# katta_harf(ismlar)
+# print(ismlar)
+
+"""
+Moslanuvchan funksiya
+"""
+def kopaytma(*sonlar):
+    kop = 1
+    for son in  sonlar:
+        kop *= son
+        
+    return kop
+
+
+# print(kopaytma(2,3,5,6,5))
+
+
+def talaba_info(familya,ism, **talaba):
+    talaba['familya'] = familya
+    talaba['ism'] = ism
+    return talaba
+
+# talaba1 = talaba_info("Xolboyev", "Damir", t_yil = '28.02.1997')
+# talaba2 = talaba_info("Odiljonov", "Zafar", t_yil = "18.11.1997", manzil = "Jizzax viloyati")
+
+
+
+
+
 
 
 
